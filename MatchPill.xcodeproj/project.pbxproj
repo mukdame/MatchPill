@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		AC9DDDDC17E04C5B0071FCBF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDDB17E04C5B0071FCBF /* main.cpp */; };
 		AC9DDDDE17E04C5B0071FCBF /* MatchPill.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC9DDDDD17E04C5B0071FCBF /* MatchPill.1 */; };
+		AC9DDDE617E050E80071FCBF /* libopencv_core.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9DDDE517E050E80071FCBF /* libopencv_core.2.4.3.dylib */; };
+		AC9DDDE817E050F70071FCBF /* libopencv_highgui.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9DDDE717E050F70071FCBF /* libopencv_highgui.2.4.3.dylib */; };
+		AC9DDDEA17E051140071FCBF /* libopencv_imgproc.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9DDDE917E051130071FCBF /* libopencv_imgproc.2.4.3.dylib */; };
+		AC9DDDED17E051E40071FCBF /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDEB17E051E40071FCBF /* TestClass.cpp */; };
+		AC9DDDF017E0555E0071FCBF /* TestClass2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDEE17E0555E0071FCBF /* TestClass2.cpp */; };
+		AC9DDDF917E0567D0071FCBF /* SobelOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDF717E0567D0071FCBF /* SobelOperator.cpp */; };
+		AC9DDDFC17E0569D0071FCBF /* Segmentator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDFA17E0569D0071FCBF /* Segmentator.cpp */; };
+		AC9DDDFF17E074E00071FCBF /* ConnectComponect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDDFD17E074E00071FCBF /* ConnectComponect.cpp */; };
+		AC9DDE0217E07C780071FCBF /* GeneralContours1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9DDE0017E07C780071FCBF /* GeneralContours1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +37,17 @@
 		AC9DDDD817E04C5B0071FCBF /* MatchPill */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatchPill; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9DDDDB17E04C5B0071FCBF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC9DDDDD17E04C5B0071FCBF /* MatchPill.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MatchPill.1; sourceTree = "<group>"; };
+		AC9DDDE517E050E80071FCBF /* libopencv_core.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.3.dylib; sourceTree = "<group>"; };
+		AC9DDDE717E050F70071FCBF /* libopencv_highgui.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.2.4.3.dylib; sourceTree = "<group>"; };
+		AC9DDDE917E051130071FCBF /* libopencv_imgproc.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.2.4.3.dylib; sourceTree = "<group>"; };
+		AC9DDDEB17E051E40071FCBF /* TestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass.cpp; sourceTree = "<group>"; };
+		AC9DDDEC17E051E40071FCBF /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		AC9DDDEE17E0555E0071FCBF /* TestClass2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass2.cpp; sourceTree = "<group>"; };
+		AC9DDDF517E056260071FCBF /* Preprocessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preprocessing.h; sourceTree = "<group>"; };
+		AC9DDDF717E0567D0071FCBF /* SobelOperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SobelOperator.cpp; sourceTree = "<group>"; };
+		AC9DDDFA17E0569D0071FCBF /* Segmentator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Segmentator.cpp; sourceTree = "<group>"; };
+		AC9DDDFD17E074E00071FCBF /* ConnectComponect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectComponect.cpp; sourceTree = "<group>"; };
+		AC9DDE0017E07C780071FCBF /* GeneralContours1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeneralContours1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9DDDE617E050E80071FCBF /* libopencv_core.2.4.3.dylib in Frameworks */,
+				AC9DDDE817E050F70071FCBF /* libopencv_highgui.2.4.3.dylib in Frameworks */,
+				AC9DDDEA17E051140071FCBF /* libopencv_imgproc.2.4.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,9 @@
 		AC9DDDCF17E04C5B0071FCBF = {
 			isa = PBXGroup;
 			children = (
+				AC9DDDE917E051130071FCBF /* libopencv_imgproc.2.4.3.dylib */,
+				AC9DDDE717E050F70071FCBF /* libopencv_highgui.2.4.3.dylib */,
+				AC9DDDE517E050E80071FCBF /* libopencv_core.2.4.3.dylib */,
 				AC9DDDDA17E04C5B0071FCBF /* MatchPill */,
 				AC9DDDD917E04C5B0071FCBF /* Products */,
 			);
@@ -62,6 +88,14 @@
 			children = (
 				AC9DDDDB17E04C5B0071FCBF /* main.cpp */,
 				AC9DDDDD17E04C5B0071FCBF /* MatchPill.1 */,
+				AC9DDDEB17E051E40071FCBF /* TestClass.cpp */,
+				AC9DDDEC17E051E40071FCBF /* TestClass.h */,
+				AC9DDDEE17E0555E0071FCBF /* TestClass2.cpp */,
+				AC9DDDF517E056260071FCBF /* Preprocessing.h */,
+				AC9DDDFA17E0569D0071FCBF /* Segmentator.cpp */,
+				AC9DDDFD17E074E00071FCBF /* ConnectComponect.cpp */,
+				AC9DDDF717E0567D0071FCBF /* SobelOperator.cpp */,
+				AC9DDE0017E07C780071FCBF /* GeneralContours1.cpp */,
 			);
 			path = MatchPill;
 			sourceTree = "<group>";
@@ -118,6 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9DDDDC17E04C5B0071FCBF /* main.cpp in Sources */,
+				AC9DDDED17E051E40071FCBF /* TestClass.cpp in Sources */,
+				AC9DDDF017E0555E0071FCBF /* TestClass2.cpp in Sources */,
+				AC9DDDF917E0567D0071FCBF /* SobelOperator.cpp in Sources */,
+				AC9DDDFC17E0569D0071FCBF /* Segmentator.cpp in Sources */,
+				AC9DDDFF17E074E00071FCBF /* ConnectComponect.cpp in Sources */,
+				AC9DDE0217E07C780071FCBF /* GeneralContours1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,14 +226,28 @@
 		AC9DDDE217E04C5B0071FCBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		AC9DDDE317E04C5B0071FCBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
