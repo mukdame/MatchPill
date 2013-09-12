@@ -1,0 +1,348 @@
+The system is: Darwin - 12.4.0 - i386
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/2.8.11.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/2.8.11.1/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3452219655/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3452219655.dir/build.make CMakeFiles/cmTryCompileExec3452219655.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3452219655.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3452219655.dir/testCXXCompiler.cxx.o -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3452219655
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3452219655.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3452219655.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3452219655  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3221486383/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3221486383.dir/build.make CMakeFiles/cmTryCompileExec3221486383.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec3221486383
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3221486383.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3221486383   
+Apple LLVM version 4.2 (clang-425.0.28) (based on LLVM 3.2svn)
+Target: x86_64-apple-darwin12.4.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3221486383 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-136
+configured to support archs: armv6 armv7 armv7s i386 x86_64
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3221486383/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3221486383.dir/build.make CMakeFiles/cmTryCompileExec3221486383.dir/build]
+  ignore line: ["/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec3221486383]
+  ignore line: ["/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3221486383.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3221486383   ]
+  ignore line: [Apple LLVM version 4.2 (clang-425.0.28) (based on LLVM 3.2svn)]
+  ignore line: [Target: x86_64-apple-darwin12.4.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3221486383 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3221486383] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3221486383.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a] ==> [/usr/lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [stdc++;/usr/lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4003143844/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4003143844.dir/build.make CMakeFiles/cmTryCompileExec4003143844.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4003143844.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4003143844.dir/testCCompiler.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4003143844
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4003143844.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4003143844.dir/testCCompiler.c.o  -o cmTryCompileExec4003143844  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2042656827/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2042656827.dir/build.make CMakeFiles/cmTryCompileExec2042656827.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o   -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec2042656827
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2042656827.dir/link.txt --verbose=1
+/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2042656827   
+Apple LLVM version 4.2 (clang-425.0.28) (based on LLVM 3.2svn)
+Target: x86_64-apple-darwin12.4.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2042656827 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-136
+configured to support archs: armv6 armv7 armv7s i386 x86_64
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2042656827/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2042656827.dir/build.make CMakeFiles/cmTryCompileExec2042656827.dir/build]
+  ignore line: ["/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o   -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec2042656827]
+  ignore line: ["/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2042656827.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2042656827   ]
+  ignore line: [Apple LLVM version 4.2 (clang-425.0.28) (based on LLVM 3.2svn)]
+  ignore line: [Target: x86_64-apple-darwin12.4.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2042656827 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o -lSystem /usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2042656827] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2042656827.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a] ==> [/usr/lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/usr/lib/clang/4.2/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4089263125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4089263125.dir/build.make CMakeFiles/cmTryCompileExec4089263125.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4089263125.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3  -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4089263125.dir/CheckFunctionExists.c.o   -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec4089263125
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4089263125.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3  -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4089263125.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4089263125  
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2135881914/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2135881914.dir/build.make CMakeFiles/cmTryCompileExec2135881914.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2135881914.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2135881914.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2135881914
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2135881914.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2135881914.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2135881914  
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3282297154/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3282297154.dir/build.make CMakeFiles/cmTryCompileExec3282297154.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3282297154.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3282297154.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3282297154
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3282297154.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3282297154.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3282297154  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3860429405/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3860429405.dir/build.make CMakeFiles/cmTryCompileExec3860429405.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3860429405.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3860429405.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3860429405
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3860429405.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3860429405.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3860429405  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3087053135/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3087053135.dir/build.make CMakeFiles/cmTryCompileExec3087053135.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3087053135.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3087053135.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3087053135
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3087053135.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3087053135.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3087053135  
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1353912428/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1353912428.dir/build.make CMakeFiles/cmTryCompileExec1353912428.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1353912428.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec1353912428.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1353912428
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1353912428.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1353912428.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1353912428  
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2884176760/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2884176760.dir/build.make CMakeFiles/cmTryCompileExec2884176760.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2884176760.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2884176760.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2884176760
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2884176760.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2884176760.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2884176760  
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3582935254/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3582935254.dir/build.make CMakeFiles/cmTryCompileExec3582935254.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3582935254.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3  -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3582935254.dir/CheckFunctionExists.c.o   -c "/Users/Muku/Desktop/CMake 2.8-11.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec3582935254
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3582935254.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3  -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3582935254.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3582935254  
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec179964828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec179964828.dir/build.make CMakeFiles/cmTryCompileExec179964828.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec179964828.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec179964828.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec179964828
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec179964828.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec179964828.dir/CheckIncludeFile.c.o  -o cmTryCompileExec179964828  
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4048843229/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4048843229.dir/build.make CMakeFiles/cmTryCompileExec4048843229.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4048843229.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec4048843229.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4048843229
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4048843229.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4048843229.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4048843229  
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3371732515/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3371732515.dir/build.make CMakeFiles/cmTryCompileExec3371732515.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3371732515.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec3371732515.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3371732515
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3371732515.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3371732515.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3371732515  
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2725556750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2725556750.dir/build.make CMakeFiles/cmTryCompileExec2725556750.dir/build
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_progress_report /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2725556750.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec2725556750.dir/CheckIncludeFile.c.o   -c /Users/Muku/Desktop/MatchPill/opencv-2.4.6.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2725556750
+"/Users/Muku/Desktop/CMake 2.8-11.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2725556750.dir/link.txt --verbose=1
+/usr/bin/cc      -fsigned-char -W -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -msse -msse2 -msse3   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2725556750.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2725556750  
+
+

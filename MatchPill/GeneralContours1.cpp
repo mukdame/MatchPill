@@ -17,7 +17,8 @@
 using namespace cv;
 using namespace std;
 
-Mat src; Mat src_gray;
+Mat src;
+Mat src_gray;
 int thresh = 100;
 int max_thresh = 255;
 RNG rng(12345);
@@ -29,10 +30,11 @@ void GeneralContours1()
 {
     /// Load source image and convert it to gray
     src = imread("/Users/Muku/Desktop/MatchPill/Image/image1.jpg");
+
     
     /// Convert image to gray and blur it
-    //cvtColor( src, src_gray, CV_BGR2GRAY );
-    //blur( src_gray, src_gray, Size(3,3) );
+    cvtColor( src, src_gray, CV_BGR2GRAY );
+    blur( src_gray, src_gray, Size(3,3) );
     
     //src_gray = SobelOperator(src);
     
